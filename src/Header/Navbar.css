@@ -1,0 +1,38 @@
+.navmain{
+    background: #F1F1F1;
+}
+.menu{
+    background: #F1F1F1;
+}
+
+.search{
+    
+}
+
+.topNav{
+    display: flex;
+}
+
+.nav-item a{
+    margin: 12px;
+}
+
+.shopping{
+    margin-right: 6rem;
+}
+
+.button{
+    margin-left: 6rem;
+    left: 300px;
+    top: 36px;
+}
+
+.coral{
+    margin: auto;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+ul li a{
+    /* background: #F1F1F1; */
+}

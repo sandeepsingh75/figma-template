@@ -1,19 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
 import Navbar from './Header/Navbar';
 import { useEffect } from 'react';
 import Collection from './main/top-main/Collection';
+import HotCategory from './main/hot-category/HotCategory';
+import { Container } from '@mui/system';
+import Products from './main/grid-products/Products';
+
+
 
 function App() {
   useEffect(()=>{
     document.title = "React Material UI Home"
   })
   return (
-    <div className="App">
-     {/* Navbar */}
+    <Container max-width="md">
      <Navbar />
      <Collection />
-    </div>
+     <HotCategory />    
+     <Products />
+    
+    </Container>
+    
   );
 }
 
